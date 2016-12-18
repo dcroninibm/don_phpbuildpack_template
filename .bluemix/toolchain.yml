@@ -14,33 +14,17 @@ required:
 
 
 # Github repos
-github-repo-chef:
+github-repo-deeplearning4j:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "chef"
-    repo_url: "https://github.com/chef/chef.git"
+    repo_name: "deeplearning4j"
+    repo_url: "https://github.com/deeplearning4j/deeplearning4j.git"
     type: link
     has_issues: true
   hidden: [form, description]
-
-github-repo-chef-server:
-  service_id: githubpublic
-  parameters:
-#    repo_name: "{{github.parameters.open-source-repo_name}}"
-#    repo_url: "{{github.parameters.open-source-repo_URL}}"
-#    type: new | clone | link | fork
-    repo_name: "chef-server"
-    repo_url: "https://github.com/chef/chef-server.git"
-    type: link
-    has_issues: true
-  hidden: [form, description]
-
-
-
-
 
 #Dra
 #dra:
