@@ -21,7 +21,7 @@ github-repo-php-buildpack:
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
     repo_name: "php-buildpack"
-    repo_url: "hhttps://github.com/cloudfoundry/php-buildpack.git"
+    repo_url: "https://github.com/cloudfoundry/php-buildpack.git"
     type: link
     has_issues: true
   hidden: [form, description]
