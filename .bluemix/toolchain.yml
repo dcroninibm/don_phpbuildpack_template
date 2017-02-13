@@ -8,20 +8,20 @@ required:
  - insights
 
 #DevOps Insights
-#insights:
-#  service_id: draservicebroker
-#  include: insights.yml
+insights:
+  service_id: draservicebroker
+  include: insights.yml
 
 
 # Github repos
-github-repo-deeplearning4j:
+github-repo-php-buildpack:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "deeplearning4j"
-    repo_url: "https://github.com/deeplearning4j/deeplearning4j.git"
+    repo_name: "php-buildpack"
+    repo_url: "hhttps://github.com/cloudfoundry/php-buildpack.git"
     type: link
     has_issues: true
   hidden: [form, description]
